@@ -1,30 +1,27 @@
 <template>
   <div class="quiz-container">
-    <h1>クイズコンポーネント</h1>
-    <div v-if="!difficultySelected">
-      <!-- 難易度選択プルダウン -->
-      <div class="difficulty-selector">
-        <label for="difficulty">難易度を選択してください:</label>
-        <select id="difficulty" v-model="selectedDifficulty">
-          <option value="easy">簡単</option>
-          <option value="medium">普通</option>
-          <option value="hard">難しい</option>
-        </select>
-        <button @click="startQuiz">クイズを開始</button>
-      </div>
+    <h1 class="title">クイズコンポーネント</h1>
+    <div v-if="!difficultySelected" class="difficulty-section">
+      <label for="difficulty" class="difficulty-label">難易度を選択してください:</label>
+      <select id="difficulty" v-model="selectedDifficulty" class="difficulty-select">
+        <option value="easy">簡単</option>
+        <option value="medium">普通</option>
+        <option value="hard">難しい</option>
+      </select>
+      <button @click="startQuiz" class="start-button">クイズを開始</button>
     </div>
-    <div v-else-if="!quizCompleted">
+    <div v-else-if="!quizCompleted" class="question-section">
       <Question 
         :question="currentQuestion"
         @answerSelected="handleAnswer"
       />
       <div class="navigation">
-        <button @click="nextQuestion" :disabled="!answerSelected">次へ</button>
+        <button @click="nextQuestion" :disabled="!answerSelected" class="next-button">次へ</button>
       </div>
     </div>
-    <div v-else>
-      <h2>あなたのスコア: {{ score }} / {{ questions.length }}</h2>
-      <button @click="restartQuiz">クイズをリスタート</button>
+    <div v-else class="result-section">
+      <h2 class="result-title">あなたのスコア: {{ score }} / {{ questions.length }}</h2>
+      <button @click="restartQuiz" class="restart-button">クイズをリスタート</button>
     </div>
   </div>
 </template>
@@ -32,6 +29,7 @@
 <script>
 import Question from './Question.vue';
 import questions from '../data/questions.json';
+import '../assets/styles/Quiz.css'; // スタイルシートをインポート
 
 export default {
   name: "Quiz",
@@ -99,15 +97,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.quiz-container {
-  text-align: center;
-}
-.navigation {
-  margin-top: 20px;
-}
-.difficulty-selector {
-  margin-bottom: 20px;
-}
-</style>

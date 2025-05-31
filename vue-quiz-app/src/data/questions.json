@@ -1,18 +1,6 @@
 {
   "questions": [
     {
-      "question": "What is the capital of France?",
-      "image": "/images/paris.jpg",
-      "options": [
-        "Berlin",
-        "Madrid",
-        "Paris",
-        "Rome"
-      ],
-      "answer": "Paris",
-      "difficulty": "easy"
-    },
-    {
       "question": "フランスの首都はどこですか？",
       "image": "/images/paris.jpg",
       "options": [
@@ -23,18 +11,6 @@
       ],
       "answer": "パリ",
       "difficulty": "easy"
-    },
-    {
-      "question": "Which planet is known as the Red Planet?",
-      "image": "/images/mars.jpg",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Saturn"
-      ],
-      "answer": "Mars",
-      "difficulty": "medium"
     },
     {
       "question": "赤い惑星として知られているのはどの惑星ですか？",
@@ -49,18 +25,6 @@
       "difficulty": "medium"
     },
     {
-      "question": "What is the largest mammal in the world?",
-      "image": "/images/blue_whale.jpg",
-      "options": [
-        "Elephant",
-        "Blue Whale",
-        "Giraffe",
-        "Great White Shark"
-      ],
-      "answer": "Blue Whale",
-      "difficulty": "hard"
-    },
-    {
       "question": "世界最大の哺乳類は何ですか？",
       "image": "/images/blue_whale.jpg",
       "options": [
@@ -71,18 +35,6 @@
       ],
       "answer": "シロナガスクジラ",
       "difficulty": "hard"
-    },
-    {
-      "question": "Which element has the chemical symbol 'O'?",
-      "image": "/images/oxygen.jpg",
-      "options": [
-        "Gold",
-        "Oxygen",
-        "Silver",
-        "Iron"
-      ],
-      "answer": "Oxygen",
-      "difficulty": "easy"
     },
     {
       "question": "化学記号 'O' を持つ元素は何ですか？",
@@ -97,18 +49,6 @@
       "difficulty": "easy"
     },
     {
-      "question": "What is the smallest prime number?",
-      "image": "/images/prime_number.jpg",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": "2",
-      "difficulty": "medium"
-    },
-    {
       "question": "最小の素数は何ですか？",
       "image": "/images/prime_number.jpg",
       "options": [
@@ -119,18 +59,6 @@
       ],
       "answer": "2",
       "difficulty": "medium"
-    },
-    {
-      "question": "Who wrote 'Romeo and Juliet'?",
-      "image": "/images/shakespeare.jpg",
-      "options": [
-        "Charles Dickens",
-        "Mark Twain",
-        "William Shakespeare",
-        "Jane Austen"
-      ],
-      "answer": "William Shakespeare",
-      "difficulty": "hard"
     },
     {
       "question": "『ロミオとジュリエット』を書いたのは誰ですか？",
@@ -145,18 +73,6 @@
       "difficulty": "hard"
     },
     {
-      "question": "What is the hardest natural substance on Earth?",
-      "image": "/images/diamond.jpg",
-      "options": [
-        "Gold",
-        "Iron",
-        "Diamond",
-        "Quartz"
-      ],
-      "answer": "Diamond",
-      "difficulty": "medium"
-    },
-    {
       "question": "地球上で最も硬い天然物質は何ですか？",
       "image": "/images/diamond.jpg",
       "options": [
@@ -167,18 +83,6 @@
       ],
       "answer": "ダイヤモンド",
       "difficulty": "medium"
-    },
-    {
-      "question": "Which gas do plants absorb from the atmosphere?",
-      "image": "/images/carbon_dioxide.jpg",
-      "options": [
-        "Oxygen",
-        "Nitrogen",
-        "Carbon Dioxide",
-        "Hydrogen"
-      ],
-      "answer": "Carbon Dioxide",
-      "difficulty": "easy"
     },
     {
       "question": "植物が大気中から吸収するガスは何ですか？",
@@ -193,18 +97,6 @@
       "difficulty": "easy"
     },
     {
-      "question": "What is the main ingredient in guacamole?",
-      "image": "/images/avocado.jpg",
-      "options": [
-        "Tomato",
-        "Avocado",
-        "Onion",
-        "Pepper"
-      ],
-      "answer": "Avocado",
-      "difficulty": "medium"
-    },
-    {
       "question": "ワカモレの主な材料は何ですか？",
       "image": "/images/avocado.jpg",
       "options": [
@@ -215,18 +107,6 @@
       ],
       "answer": "アボカド",
       "difficulty": "medium"
-    },
-    {
-      "question": "Which country is known as the Land of the Rising Sun?",
-      "image": "/images/japan.jpg",
-      "options": [
-        "China",
-        "Japan",
-        "Thailand",
-        "South Korea"
-      ],
-      "answer": "Japan",
-      "difficulty": "hard"
     },
     {
       "question": "『日の出の国』として知られる国はどこですか？",

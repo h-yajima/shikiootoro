@@ -1,0 +1,118 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .difficulty-section {
+    margin-bottom: 20px;
+  }
+  
+  .difficulty-label {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .difficulty-select {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .start-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .question-section {
+    margin-top: 20px;
+  }
+  
+  .navigation {
+    margin-top: 20px;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .result-section {
+    margin-top: 20px;
+  }
+  
+  .result-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .restart-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .restart-button:hover {
+    background-color: #a71d2a;
+  }
+  
+  /* 答えボタンを縦に並べる */
+  .answer-options {
+    display: flex;
+    flex-direction: column; /* フレックスボックスの方向を縦に設定 */
+    align-items: center; /* ボタンを中央揃えにする */
+    gap: 10px; /* ボタン間のスペースを設定 */
+  }
+
+  .answer-button {
+    display: inline-block;
+    width: 200px; /* ボタンの幅を固定 */
+    height: 50px; /* ボタンの高さを固定 */
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .answer-button:hover {
+    background-color: #5a6268;
+  }
