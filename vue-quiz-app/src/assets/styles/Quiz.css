@@ -27,7 +27,7 @@
 }
 
 .difficulty-select {
-  margin: 10px 0;
+  margin: 10px 0; /* プルダウンの上下にスペースを追加 */
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -36,6 +36,7 @@
 
 /* クイズ開始ボタン */
 .start-button {
+  margin-top: 20px; /* ボタンの上にスペースを追加 */
   padding: 10px 20px;
   font-size: 1rem;
   color: #fff;

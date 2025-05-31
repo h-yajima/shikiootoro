@@ -1,8 +1,7 @@
 <template>
   <div class="quiz-container">
-    <h1 class="title">クイズコンポーネント</h1>
     <div v-if="!difficultySelected" class="difficulty-section">
-      <label for="difficulty" class="difficulty-label">難易度を選択してください:</label>
+      <label for="difficulty" class="difficulty-label">難易度：</label>
       <select id="difficulty" v-model="selectedDifficulty" class="difficulty-select">
         <option value="easy">簡単</option>
         <option value="medium">普通</option>
@@ -103,3 +102,13 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.quiz-container {
+  background-image: url('/images/bg/title.jpg'); /* 背景画像を設定 */
+  background-size: cover; /* 背景画像をコンテナにフィット */
+  background-position: center; /* 背景画像を中央に配置 */
+  min-height: 100vh; /* コンテナの高さを画面全体に設定 */
+  padding: 20px; /* コンテンツの内側に余白を追加 */
+}
+</style>
