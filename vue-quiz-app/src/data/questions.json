@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "image": "/images/paris.jpg",
+      "options": [
+        "Berlin",
+        "Madrid",
+        "Paris",
+        "Rome"
+      ],
+      "answer": "Paris",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "image": "/images/mars.jpg",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Mars",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the largest mammal in the world?",
+      "image": "/images/blue_whale.jpg",
+      "options": [
+        "Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Great White Shark"
+      ],
+      "answer": "Blue Whale",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "image": "/images/oxygen.jpg",
+      "options": [
+        "Gold",
+        "Oxygen",
+        "Silver",
+        "Iron"
+      ],
+      "answer": "Oxygen",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "image": "/images/prime_number.jpg",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "image": "/images/shakespeare.jpg",
+      "options": [
+        "Charles Dickens",
+        "Mark Twain",
+        "William Shakespeare",
+        "Jane Austen"
+      ],
+      "answer": "William Shakespeare",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "image": "@//images/diamond.jpg",
+      "options": [
+        "Gold",
+        "Iron",
+        "Diamond",
+        "Quartz"
+      ],
+      "answer": "Diamond",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which gas do plants absorb from the atmosphere?",
+      "image": "/images/carbon_dioxide.jpg",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "answer": "Carbon Dioxide",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the main ingredient in guacamole?",
+      "image": "/images/avocado.jpg",
+      "options": [
+        "Tomato",
+        "Avocado",
+        "Onion",
+        "Pepper"
+      ],
+      "answer": "Avocado",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "image": "/images/japan.jpg",
+      "options": [
+        "China",
+        "Japan",
+        "Thailand",
+        "South Korea"
+      ],
+      "answer": "Japan",
+      "difficulty": "hard"
+    }
+  ]
+}
