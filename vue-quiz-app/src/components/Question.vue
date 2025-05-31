@@ -6,8 +6,8 @@
       <button 
         v-for="(option, index) in question.options" 
         :key="index" 
-        @click="selectAnswer(option)" 
-        class="answer-button"
+        @click="selectAnswer(option, index)" 
+        :class="['answer-button', { 'selected': selectedOptionIndex === index }]"
       >
         {{ option }}
       </button>
@@ -18,10 +18,24 @@
 <script>
 export default {
   props: {
-    question: Object
+    question: Object,
+    resetSelection: Boolean // 親コンポーネントからリセットフラグを受け取る
+  },
+  data() {
+    return {
+      selectedOptionIndex: null // 選択されたボタンのインデックスを管理
+    };
+  },
+  watch: {
+    resetSelection(newValue) {
+      if (newValue) {
+        this.selectedOptionIndex = null; // 選択状態をリセット
+      }
+    }
   },
   methods: {
-    selectAnswer(option) {
+    selectAnswer(option, index) {
+      this.selectedOptionIndex = index; // 選択されたボタンのインデックスを設定
       this.$emit('answerSelected', option === this.question.answer);
     }
   }

@@ -13,6 +13,7 @@
     <div v-else-if="!quizCompleted" class="question-section">
       <Question 
         :question="currentQuestion"
+        :resetSelection="resetSelection"
         @answerSelected="handleAnswer"
       />
       <div class="navigation">
@@ -45,6 +46,7 @@ export default {
       answerSelected: false,
       selectedDifficulty: 'easy', // 初期値を 'easy' に設定
       difficultySelected: false, // 難易度が選択されたかどうかを管理
+      resetSelection: false // 選択状態をリセットするフラグ
     };
   },
   computed: {
@@ -63,6 +65,10 @@ export default {
       if (this.currentQuestionIndex < this.questions.length - 1) {
         this.currentQuestionIndex++;
         this.answerSelected = false;
+        this.resetSelection = true; // リセットフラグをオン
+        this.$nextTick(() => {
+          this.resetSelection = false; // リセットフラグをオフ
+        });
       } else {
         this.quizCompleted = true;
       }
