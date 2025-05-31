@@ -13,6 +13,18 @@
       "difficulty": "easy"
     },
     {
+      "question": "フランスの首都はどこですか？",
+      "image": "/images/paris.jpg",
+      "options": [
+        "ベルリン",
+        "マドリード",
+        "パリ",
+        "ローマ"
+      ],
+      "answer": "パリ",
+      "difficulty": "easy"
+    },
+    {
       "question": "Which planet is known as the Red Planet?",
       "image": "/images/mars.jpg",
       "options": [
@@ -22,6 +34,18 @@
         "Saturn"
       ],
       "answer": "Mars",
+      "difficulty": "medium"
+    },
+    {
+      "question": "赤い惑星として知られているのはどの惑星ですか？",
+      "image": "/images/mars.jpg",
+      "options": [
+        "地球",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "answer": "火星",
       "difficulty": "medium"
     },
     {
@@ -37,6 +61,18 @@
       "difficulty": "hard"
     },
     {
+      "question": "世界最大の哺乳類は何ですか？",
+      "image": "/images/blue_whale.jpg",
+      "options": [
+        "象",
+        "シロナガスクジラ",
+        "キリン",
+        "ホホジロザメ"
+      ],
+      "answer": "シロナガスクジラ",
+      "difficulty": "hard"
+    },
+    {
       "question": "Which element has the chemical symbol 'O'?",
       "image": "/images/oxygen.jpg",
       "options": [
@@ -49,7 +85,31 @@
       "difficulty": "easy"
     },
     {
+      "question": "化学記号 'O' を持つ元素は何ですか？",
+      "image": "/images/oxygen.jpg",
+      "options": [
+        "金",
+        "酸素",
+        "銀",
+        "鉄"
+      ],
+      "answer": "酸素",
+      "difficulty": "easy"
+    },
+    {
       "question": "What is the smallest prime number?",
+      "image": "/images/prime_number.jpg",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "question": "最小の素数は何ですか？",
       "image": "/images/prime_number.jpg",
       "options": [
         "0",
@@ -73,8 +133,20 @@
       "difficulty": "hard"
     },
     {
+      "question": "『ロミオとジュリエット』を書いたのは誰ですか？",
+      "image": "/images/shakespeare.jpg",
+      "options": [
+        "チャールズ・ディケンズ",
+        "マーク・トウェイン",
+        "ウィリアム・シェイクスピア",
+        "ジェーン・オースティン"
+      ],
+      "answer": "ウィリアム・シェイクスピア",
+      "difficulty": "hard"
+    },
+    {
       "question": "What is the hardest natural substance on Earth?",
-      "image": "@//images/diamond.jpg",
+      "image": "/images/diamond.jpg",
       "options": [
         "Gold",
         "Iron",
@@ -82,6 +154,18 @@
         "Quartz"
       ],
       "answer": "Diamond",
+      "difficulty": "medium"
+    },
+    {
+      "question": "地球上で最も硬い天然物質は何ですか？",
+      "image": "/images/diamond.jpg",
+      "options": [
+        "金",
+        "鉄",
+        "ダイヤモンド",
+        "石英"
+      ],
+      "answer": "ダイヤモンド",
       "difficulty": "medium"
     },
     {
@@ -97,6 +181,18 @@
       "difficulty": "easy"
     },
     {
+      "question": "植物が大気中から吸収するガスは何ですか？",
+      "image": "/images/carbon_dioxide.jpg",
+      "options": [
+        "酸素",
+        "窒素",
+        "二酸化炭素",
+        "水素"
+      ],
+      "answer": "二酸化炭素",
+      "difficulty": "easy"
+    },
+    {
       "question": "What is the main ingredient in guacamole?",
       "image": "/images/avocado.jpg",
       "options": [
@@ -109,6 +205,18 @@
       "difficulty": "medium"
     },
     {
+      "question": "ワカモレの主な材料は何ですか？",
+      "image": "/images/avocado.jpg",
+      "options": [
+        "トマト",
+        "アボカド",
+        "玉ねぎ",
+        "ピーマン"
+      ],
+      "answer": "アボカド",
+      "difficulty": "medium"
+    },
+    {
       "question": "Which country is known as the Land of the Rising Sun?",
       "image": "/images/japan.jpg",
       "options": [
@@ -118,6 +226,18 @@
         "South Korea"
       ],
       "answer": "Japan",
+      "difficulty": "hard"
+    },
+    {
+      "question": "『日の出の国』として知られる国はどこですか？",
+      "image": "/images/japan.jpg",
+      "options": [
+        "中国",
+        "日本",
+        "タイ",
+        "韓国"
+      ],
+      "answer": "日本",
       "difficulty": "hard"
     }
   ]
