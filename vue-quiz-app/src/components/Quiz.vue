@@ -109,7 +109,7 @@ export default {
 <style scoped>
 .quiz-container {
   position: relative; /* オーバーレイを配置するために必要 */
-  background-image: url('/images/bg/title.jpg'); /* 背景画像を設定 */
+  background-image: url('/shikiootoro/images/bg/title.jpg'); /* 背景画像を設定 */
   background-size: cover; /* 背景画像をコンテナにフィット */
   background-position: center; /* 背景画像を中央に配置 */
   min-height: 100vh; /* コンテナの高さを画面全体に設定 */
