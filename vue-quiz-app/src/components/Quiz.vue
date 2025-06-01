@@ -1,5 +1,6 @@
 <template>
   <div class="quiz-container">
+    <div class="overlay"></div> <!-- 半透明のオーバーレイを追加 -->
     <div v-if="!difficultySelected" class="difficulty-section">
       <label for="difficulty" class="difficulty-label">難易度：</label>
       <select id="difficulty" v-model="selectedDifficulty" class="difficulty-select">
@@ -20,8 +21,10 @@
       </div>
     </div>
     <div v-else class="result-section">
-      <h2 class="result-title">あなたのスコア: {{ score }} / {{ questions.length }}</h2>
-      <button @click="restartQuiz" class="restart-button">クイズをリスタート</button>
+      <div class="result-container"> <!-- 半透明の背景を追加 -->
+        <h2 class="result-title">あなたのスコア: {{ score }} / {{ questions.length }}</h2>
+        <button @click="restartQuiz" class="restart-button">クイズをリスタート</button>
+      </div>
     </div>
   </div>
 </template>
@@ -105,10 +108,46 @@ export default {
 
 <style scoped>
 .quiz-container {
+  position: relative; /* オーバーレイを配置するために必要 */
   background-image: url('/images/bg/title.jpg'); /* 背景画像を設定 */
   background-size: cover; /* 背景画像をコンテナにフィット */
   background-position: center; /* 背景画像を中央に配置 */
   min-height: 100vh; /* コンテナの高さを画面全体に設定 */
   padding: 20px; /* コンテンツの内側に余白を追加 */
+}
+
+.overlay {
+  position: absolute; /* オーバーレイを背景画像の上に配置 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒いオーバーレイ */
+  z-index: 1; /* コンテンツより下に配置 */
+}
+
+.title, .difficulty-section, .question-section, .result-section {
+  position: relative; /* オーバーレイの上に配置 */
+  z-index: 2; /* オーバーレイより上に配置 */
+  color: #fff; /* テキストを白に設定してコントラストを高める */
+}
+
+.question-section {
+  background-color: rgba(0, 0, 0, 0.6); /* 半透明の背景を追加 */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.6); /* 半透明の背景を追加 */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.result-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #fff; /* テキストを白に設定してコントラストを高める */
 }
 </style>
