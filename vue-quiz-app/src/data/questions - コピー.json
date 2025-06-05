@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "question": "フランスの首都はどこですか？",
+      "image": "",
+      "options": [
+        "ベルリン",
+        "マドリード",
+        "パリ",
+        "ローマ"
+      ],
+      "answer": "パリ",
+      "difficulty": "easy"
+    },
+    {
+      "question": "赤い惑星として知られているのはどの惑星ですか？",
+      "image": "/shikiootoro/images/questions/mars.jpg",
+      "options": [
+        "地球",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "answer": "火星",
+      "difficulty": "medium"
+    },
+    {
+      "question": "世界最大の哺乳類は何ですか？",
+      "image": "/shikiootoro/images/questions/blue_whale.jpg",
+      "options": [
+        "象",
+        "シロナガスクジラ",
+        "キリン",
+        "ホホジロザメ"
+      ],
+      "answer": "シロナガスクジラ",
+      "difficulty": "hard"
+    },
+    {
+      "question": "化学記号 'O' を持つ元素は何ですか？",
+      "image": "/shikiootoro/images/questions/oxygen.jpg",
+      "options": [
+        "金",
+        "酸素",
+        "銀",
+        "鉄"
+      ],
+      "answer": "酸素",
+      "difficulty": "easy"
+    },
+    {
+      "question": "最小の素数は何ですか？",
+      "image": "/shikiootoro/images/questions/prime_number.jpg",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": "2",
+      "difficulty": "medium"
+    },
+    {
+      "question": "『ロミオとジュリエット』を書いたのは誰ですか？",
+      "image": "/shikiootoro/images/questions/shakespeare.jpg",
+      "options": [
+        "チャールズ・ディケンズ",
+        "マーク・トウェイン",
+        "ウィリアム・シェイクスピア",
+        "ジェーン・オースティン"
+      ],
+      "answer": "ウィリアム・シェイクスピア",
+      "difficulty": "hard"
+    },
+    {
+      "question": "地球上で最も硬い天然物質は何ですか？",
+      "image": "/shikiootoro/images/questions/diamond.jpg",
+      "options": [
+        "金",
+        "鉄",
+        "ダイヤモンド",
+        "石英"
+      ],
+      "answer": "ダイヤモンド",
+      "difficulty": "medium"
+    },
+    {
+      "question": "植物が大気中から吸収するガスは何ですか？",
+      "image": "/shikiootoro/images/questions/carbon_dioxide.jpg",
+      "options": [
+        "酸素",
+        "窒素",
+        "二酸化炭素",
+        "水素"
+      ],
+      "answer": "二酸化炭素",
+      "difficulty": "easy"
+    },
+    {
+      "question": "ワカモレの主な材料は何ですか？",
+      "image": "/shikiootoro/images/questions/avocado.jpg",
+      "options": [
+        "トマト",
+        "アボカド",
+        "玉ねぎ",
+        "ピーマン"
+      ],
+      "answer": "アボカド",
+      "difficulty": "medium"
+    },
+    {
+      "question": "『日の出の国』として知られる国はどこですか？",
+      "image": "/shikiootoro/images/questions/japan.jpg",
+      "options": [
+        "中国",
+        "日本",
+        "タイ",
+        "韓国"
+      ],
+      "answer": "日本",
+      "difficulty": "hard"
+    }
+  ]
+}
