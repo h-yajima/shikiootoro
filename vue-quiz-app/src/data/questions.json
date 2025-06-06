@@ -1,123 +1,108 @@
 {
   "questions": [
     {
-      "question": "フランスの首都はどこですか？",
+      "question": "「しきおおとろ」正しい漢字は？",
       "image": "",
-      "options": [
-        "ベルリン",
-        "マドリード",
-        "パリ",
-        "ローマ"
-      ],
-      "answer": "パリ",
+      "options": ["四季大瀞", "志悸大瀞", "志季大瀞", "志季大吐露"],
+      "answer": "志季大瀞",
       "difficulty": "easy"
     },
     {
-      "question": "赤い惑星として知られているのはどの惑星ですか？",
-      "image": "/shikiootoro/images/questions/mars.jpg",
-      "options": [
-        "地球",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "answer": "火星",
+      "question": "「〇〇の宿　しきおおとろ」　〇に入る文字は？",
+      "image": "",
+      "options": ["鬼怒川", "鬼怒", "清流", "日光"],
+      "answer": "鬼怒",
+      "difficulty": "easy"
+    },
+    {
+      "question": "この画像のお風呂は",
+      "image": "/shikiootoro/images/questions/3.jpg",
+      "options": ["男湯", "女湯"],
+      "answer": "男湯",
+      "difficulty": "easy"
+    },
+    {
+      "question": "主人公の実家がしきおおとろをモデルにしたアニメのタイトルは？",
+      "image": "",
+      "options": ["プラオレ", "プレオラ", "プオレラ", "オレオレ"],
+      "answer": "プラオレ",
+      "difficulty": "easy"
+    },
+    {
+      "question": "しきおおとろから最も近い駅は？",
+      "image": "",
+      "options": ["鬼怒川温泉", "新高徳", "日光", "西白井"],
+      "answer": "新高徳",
+      "difficulty": "easy"
+    },
+    {
+      "question": "宿泊部屋数は何部屋？",
+      "image": "",
+      "options": ["4", "5", "6", "7"],
+      "answer": "6",
       "difficulty": "medium"
     },
     {
-      "question": "世界最大の哺乳類は何ですか？",
-      "image": "/shikiootoro/images/questions/blue_whale.jpg",
-      "options": [
-        "象",
-        "シロナガスクジラ",
-        "キリン",
-        "ホホジロザメ"
-      ],
-      "answer": "シロナガスクジラ",
+      "question": "食事のサラダと一緒に提供されるドレッシング。このなかで提供していない味のドレッシングは？",
+      "image": "",
+      "options": ["たまねぎ", "にんじん", "いちじく", "いちご"],
+      "answer": "いちじく",
+      "difficulty": "medium"
+    },
+    {
+      "question": "客室で用意しているお茶菓子の名称は？",
+      "image": "/shikiootoro/images/questions/8.jpg",
+      "options": ["ろっくバウム", "きぬの清流", "揚げゆばまんじゅう", "おとめの恋ごころ"],
+      "answer": "きぬの清流",
+      "difficulty": "medium"
+    },
+    {
+      "question": "2024年でしきおおとろは何周年？",
+      "image": "",
+      "options": ["20", "25", "30", "35"],
+      "answer": "30",
+      "difficulty": "medium"
+    },
+    {
+      "question": "しきおおとろを実家とするアニメ主人公の名前は？",
+      "image": "",
+      "options": ["清瀬 優", "高木 尚実", "鷺沼 梨子", "水沢 愛佳"],
+      "answer": "水沢 愛佳",
+      "difficulty": "medium"
+    },
+    {
+      "question": "①存在しない客室の名前は？",
+      "image": "/shikiootoro/images/questions/11.jpg",
+      "options": ["たきみ", "きぬいわ", "くろがね", "ちゅうぜん"],
+      "answer": "ちゅうぜん",
       "difficulty": "hard"
     },
     {
-      "question": "化学記号 'O' を持つ元素は何ですか？",
-      "image": "/shikiootoro/images/questions/oxygen.jpg",
-      "options": [
-        "金",
-        "酸素",
-        "銀",
-        "鉄"
-      ],
-      "answer": "酸素",
-      "difficulty": "easy"
-    },
-    {
-      "question": "最小の素数は何ですか？",
-      "image": "/shikiootoro/images/questions/prime_number.jpg",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": "2",
-      "difficulty": "medium"
-    },
-    {
-      "question": "『ロミオとジュリエット』を書いたのは誰ですか？",
-      "image": "/shikiootoro/images/questions/shakespeare.jpg",
-      "options": [
-        "チャールズ・ディケンズ",
-        "マーク・トウェイン",
-        "ウィリアム・シェイクスピア",
-        "ジェーン・オースティン"
-      ],
-      "answer": "ウィリアム・シェイクスピア",
+      "question": "②存在しない客室の名前は？",
+      "image": "/shikiootoro/images/questions/12.jpg",
+      "options": ["たかとく", "あていわ", "まんねん", "なかいわ"],
+      "answer": "たかとく",
       "difficulty": "hard"
     },
     {
-      "question": "地球上で最も硬い天然物質は何ですか？",
-      "image": "/shikiootoro/images/questions/diamond.jpg",
-      "options": [
-        "金",
-        "鉄",
-        "ダイヤモンド",
-        "石英"
-      ],
-      "answer": "ダイヤモンド",
-      "difficulty": "medium"
+      "question": "お食事処のどんぐり。部屋番号は？",
+      "image": "/shikiootoro/images/questions/13.jpg",
+      "options": ["101", "102", "203", "204"],
+      "answer": "203",
+      "difficulty": "hard"
     },
     {
-      "question": "植物が大気中から吸収するガスは何ですか？",
-      "image": "/shikiootoro/images/questions/carbon_dioxide.jpg",
-      "options": [
-        "酸素",
-        "窒素",
-        "二酸化炭素",
-        "水素"
-      ],
-      "answer": "二酸化炭素",
-      "difficulty": "easy"
+      "question": "画像の客室の名前は？",
+      "image": "/shikiootoro/images/questions/14.jpg",
+      "options": ["たかとく", "たきみ", "あていわ", "きぬいわ"],
+      "answer": "きぬいわ",
+      "difficulty": "hard"
     },
     {
-      "question": "ワカモレの主な材料は何ですか？",
-      "image": "/shikiootoro/images/questions/avocado.jpg",
-      "options": [
-        "トマト",
-        "アボカド",
-        "玉ねぎ",
-        "ピーマン"
-      ],
-      "answer": "アボカド",
-      "difficulty": "medium"
-    },
-    {
-      "question": "『日の出の国』として知られる国はどこですか？",
-      "image": "/shikiootoro/images/questions/japan.jpg",
-      "options": [
-        "中国",
-        "日本",
-        "タイ",
-        "韓国"
-      ],
-      "answer": "日本",
+      "question": "左の鬼が持っている看板には何が書かれている？",
+      "image": "/shikiootoro/images/questions/15.jpg",
+      "options": ["いらっしゃいませ", "ごゆっくり", "ようこそ", "Welcome"],
+      "answer": "welcome",
       "difficulty": "hard"
     }
   ]

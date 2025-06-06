@@ -1,8 +1,11 @@
 <template>
   <div class="quiz-container">
     <div class="overlay"></div> <!-- 半透明のオーバーレイを追加 -->
-    <div v-if="!difficultySelected" class="difficulty-section">
-      <label for="difficulty" class="difficulty-label">難易度：</label>
+    <div v-if="!modeSelected" class="mode-section vertical-mode-section">
+      <button @click="selectMode('difficulty')" class="mode-button">難易度を選択して開始</button>
+      <button @click="selectMode('all')" class="mode-button">すべての難易度から出題</button>
+    </div>
+    <div v-else-if="mode === 'difficulty' && !difficultySelected" class="difficulty-section">
       <select id="difficulty" v-model="selectedDifficulty" class="difficulty-select">
         <option value="easy">簡単</option>
         <option value="medium">普通</option>
@@ -11,6 +14,9 @@
       <button @click="startQuiz" class="start-button">クイズを開始</button>
     </div>
     <div v-else-if="!quizCompleted" class="question-section">
+      <div class="question-progress">
+        第{{ currentQuestionIndex + 1 }}問 ／ 全{{ questions.length }}問
+      </div>
       <Question 
         :question="currentQuestion"
         :resetSelection="resetSelection"
@@ -23,7 +29,7 @@
     <div v-else class="result-section">
       <div class="result-container"> <!-- 半透明の背景を追加 -->
         <h2 class="result-title">あなたのスコア: {{ score }} / {{ questions.length }}</h2>
-        <button @click="restartQuiz" class="restart-button">クイズをリスタート</button>
+        <button @click="restartQuiz" class="restart-button">戻る</button>
       </div>
     </div>
   </div>
@@ -48,7 +54,9 @@ export default {
       answerSelected: false,
       selectedDifficulty: 'easy', // 初期値を 'easy' に設定
       difficultySelected: false, // 難易度が選択されたかどうかを管理
-      resetSelection: false // 選択状態をリセットするフラグ
+      resetSelection: false, // 選択状態をリセットするフラグ
+      mode: '', // 'difficulty' or 'all'
+      modeSelected: false
     };
   },
   computed: {
@@ -57,6 +65,13 @@ export default {
     }
   },
   methods: {
+    selectMode(mode) {
+      this.mode = mode;
+      this.modeSelected = true;
+      if (mode === 'all') {
+        this.startQuiz();
+      }
+    },
     handleAnswer(isCorrect) {
       if (isCorrect) {
         this.score++;
@@ -81,10 +96,18 @@ export default {
       this.quizCompleted = false;
       this.answerSelected = false;
       this.difficultySelected = false; // 難易度選択画面に戻る
+      this.mode = '';
+      this.modeSelected = false;
     },
     startQuiz() {
-      this.difficultySelected = true; // 難易度が選択された状態にする
-      this.loadQuestions();
+      if (this.mode === 'all') {
+        // すべての難易度からランダムに10問出題
+        this.questions = this.shuffleArray(questions.questions).slice(0, 10);
+        this.difficultySelected = true;
+      } else {
+        this.difficultySelected = true; // 難易度が選択された状態にする
+        this.loadQuestions();
+      }
     },
     loadQuestions() {
       const allQuestions = questions.questions.filter(q => q.difficulty === this.selectedDifficulty);

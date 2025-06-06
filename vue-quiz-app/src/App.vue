@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>おためしクイズ</h1>
     <Quiz />
   </div>
 </template>
@@ -15,10 +14,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#app {
-  text-align: center;
-  margin-top: 50px;
-}
-</style>

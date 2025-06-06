@@ -1,21 +1,24 @@
 /* --- 画面全体の背景画像とオーバーレイ --- */
-.quiz-container {
-  position: relative;
+body {
   background-image: url('/shikiootoro/images/bg/title.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   min-height: 100vh;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
+.quiz-container {
+  position: relative;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: none;
 }
 
 .title, .difficulty-section, .question-section, .result-section {
@@ -46,16 +49,6 @@
 }
 
 /* 全体のコンテナ */
-.quiz-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
 /* タイトル */
 .title {
   font-size: 2rem;
@@ -68,10 +61,10 @@
   margin-bottom: 20px;
 }
 
-.difficulty-label {
+/* .difficulty-label {
   font-size: 1.2rem;
   color: #555;
-}
+} */
 
 .difficulty-select {
   margin: 10px 0; /* プルダウンの上下にスペースを追加 */
@@ -129,7 +122,7 @@
 
 .result-title {
   font-size: 1.5rem;
-  color: #333;
+  color: #fff;
 }
 
 /* リスタートボタン */
@@ -199,4 +192,64 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
+}
+
+/* メインタイトルスタイル */
+.main-title {
+  font-size: 2.8rem;
+  color: #fff;
+  padding: 28px 0 18px 0;
+  margin: 0 auto 36px auto;
+  border-radius: 16px;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  max-width: 90%;
+}
+
+/* モード選択セクション */
+.mode-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.mode-button {
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+
+.mode-button:hover {
+  background: #0056b3;
+}
+
+/* 縦並びモード選択セクション */
+.vertical-mode-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+/* 問題番号表示 */
+.question-progress {
+  font-size: 1.1rem;
+  color: #fff;
+  /* background: rgba(0,0,0,0.45); */
+  padding: 8px 0 8px 0;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
 }
