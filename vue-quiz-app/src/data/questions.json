@@ -43,9 +43,9 @@
       "difficulty": "medium"
     },
     {
-      "question": "食事のサラダと一緒に提供されるドレッシング。このなかで提供していない味のドレッシングは？",
-      "image": "",
-      "options": ["たまねぎ", "にんじん", "いちじく", "いちご"],
+      "question": "存在しない味のドレッシングは？",
+      "image": "/shikiootoro/images/questions/7.jpg",
+      "options": ["塩こうじ", "にんじんカレー", "いちじく", "いちご"],
       "answer": "いちじく",
       "difficulty": "medium"
     },
@@ -71,24 +71,24 @@
       "difficulty": "medium"
     },
     {
-      "question": "①存在しない客室の名前は？",
+      "question": "存在しない客室の名前は？",
       "image": "/shikiootoro/images/questions/11.jpg",
       "options": ["たきみ", "きぬいわ", "くろがね", "ちゅうぜん"],
       "answer": "ちゅうぜん",
       "difficulty": "hard"
     },
     {
-      "question": "②存在しない客室の名前は？",
-      "image": "/shikiootoro/images/questions/12.jpg",
-      "options": ["たかとく", "あていわ", "まんねん", "なかいわ"],
-      "answer": "たかとく",
+      "question": "客室の名前の由来は？",
+      "image": "",
+      "options": ["橋", "川", "山", "道路"],
+      "answer": "橋",
       "difficulty": "hard"
     },
     {
-      "question": "お食事処のどんぐり。部屋番号は？",
+      "question": "この部屋の名前は？",
       "image": "/shikiootoro/images/questions/13.jpg",
-      "options": ["101", "102", "203", "204"],
-      "answer": "203",
+      "options": ["このは", "よつば", "どんぐり", "きのこ"],
+      "answer": "どんぐり",
       "difficulty": "hard"
     },
     {
@@ -103,6 +103,13 @@
       "image": "/shikiootoro/images/questions/15.jpg",
       "options": ["いらっしゃいませ", "ごゆっくり", "ようこそ", "Welcome"],
       "answer": "welcome",
+      "difficulty": "hard"
+    },
+    {
+      "question": "ごはん処の名前は？",
+      "image": "/shikiootoro/images/questions/16.jpg",
+      "options": ["おりおり", "きりきり", "まりまり", "もりもり"],
+      "answer": "おりおり",
       "difficulty": "hard"
     }
   ]
