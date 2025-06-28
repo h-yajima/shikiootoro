@@ -73,10 +73,11 @@ export default {
       }
     },
     handleAnswer(isCorrect) {
+      if (this.answerSelected) return; // すでに回答済みなら何もしない
       if (isCorrect) {
         this.score++;
       }
-      this.answerSelected = true; // ボタンを活性化するために true に設定
+      this.answerSelected = true;
     },
     nextQuestion() {
       if (this.currentQuestionIndex < this.questions.length - 1) {
