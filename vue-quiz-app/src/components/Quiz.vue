@@ -2,8 +2,8 @@
   <div class="quiz-container">
     <div class="overlay"></div> <!-- 半透明のオーバーレイを追加 -->
     <div v-if="!modeSelected" class="mode-section vertical-mode-section">
-      <button @click="selectMode('difficulty')" class="mode-button">難易度を選択して開始</button>
-      <button @click="selectMode('all')" class="mode-button">すべての難易度から出題</button>
+      <!-- <button @click="selectMode('difficulty')" class="mode-button">難易度を選択して開始</button> -->
+      <button @click="selectMode('all')" class="mode-button">クイズを開始</button>
     </div>
     <div v-else-if="mode === 'difficulty' && !difficultySelected" class="difficulty-section">
       <select id="difficulty" v-model="selectedDifficulty" class="difficulty-select">
